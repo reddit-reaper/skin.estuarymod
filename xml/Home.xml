@@ -2,7 +2,7 @@
 <window>
 	<!--<onload condition="!Skin.HasSetting(FirstTimeRun2)">ActivateWindow(1136)</onload>-->
 	<onload>SetProperty(CurrentSkin,skin.estuary.modv2,home)</onload>
-	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu)</onload>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;levels=1&amp;mainmenuID=9000&amp;group=mainmenu)</onload>
 	<onload condition="Skin.HasSetting(Skin_EnableAnimatedPosters)">Skin.SetBool(SkinHelper.EnableAnimatedPosters)</onload>
 	<onload condition="!Skin.HasSetting(Skin_EnableAnimatedPosters)">Skin.Reset(SkinHelper.EnableAnimatedPosters)</onload>
 	<onload>Skin.SetBool(SkinHelper.EnableExtendedArt)</onload>
