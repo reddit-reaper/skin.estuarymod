@@ -183,6 +183,7 @@
 					<skinshortcuts>visibility</skinshortcuts>
 					<pagecontrol>22010</pagecontrol>
 					<include condition="!Skin.HasSetting(UseSmallerCategories)">PersonalWidgetListCategoriesBig</include>
+					<include condition="!Skin.HasSetting(UseSmallerCategories)">PersonalWidgetListCategoriesBig2</include>
 					<include condition="Skin.HasSetting(UseSmallerCategories)">PersonalWidgetListCategoriesSmall</include>
 					<include content="Widget$SKINSHORTCUTS[WidgetStyle1]">
 						<param name="content_path" value="$SKINSHORTCUTS[content1]"/>
@@ -315,6 +316,7 @@
 					<skinshortcuts>visibility</skinshortcuts>
 					<pagecontrol>23010</pagecontrol>
 					<include condition="!Skin.HasSetting(UseSmallerCategories)">PersonalWidgetPanelCategoriesBig</include>
+					<include condition="!Skin.HasSetting(UseSmallerCategories)">PersonalWidgetPanelCategoriesBig2</include>
 					<include condition="Skin.HasSetting(UseSmallerCategories)">PersonalWidgetPanelCategoriesSmall</include>
 					<include content="Widget$SKINSHORTCUTS[WidgetStyle9]">
 						<param name="content_path" value="$SKINSHORTCUTS[content9]"/>

@@ -1,3 +1,9 @@
+[B]3.0.6[/B]
+• Add Sub-Categories in panel view
+• Add Background capability for Categories
+• Adjusted padding on right side for categories
+• Adjust default view style to use WideList
+
 [B]3.0.5[/B]
 • Add number of bits per sample on music OSD
 • Add Russian translation by salashnik

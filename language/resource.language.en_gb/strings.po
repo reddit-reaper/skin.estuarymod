@@ -573,7 +573,7 @@ msgstr ""
 
 #: /xml/script-skinshortcuts.xml
 msgctxt "#31132"
-msgid "Hide 'Categories' widget"
+msgid "Hide Sub-Categories Widget"
 msgstr ""
 
 #: /xml/SkinSettings.xml
@@ -1850,7 +1850,7 @@ msgstr ""
 
 #: /xml/script-skinshortcuts.xml
 msgctxt "#40226"
-msgid "Personalize 'Categories' widget"
+msgid "Personalize Sub-Categories Widget"
 msgstr ""
 
 #: /xml/SkinSettings.xml
@@ -2291,4 +2291,19 @@ msgstr ""
 #: /xml/Variables.xml
 msgctxt "#40314"
 msgid "Crew member in TV show"
+msgstr ""
+
+#: /xml/Variables.xml
+msgctxt "#40315"
+msgid "Sub-Category"
+msgstr ""
+
+#: /xml/script-skinshortcuts.xml
+msgctxt "#40316"
+msgid "Personalize Top Categories Widget"
+msgstr ""
+
+#: /xml/script-skinshortcuts.xml
+msgctxt "#40317"
+msgid "Hide Top Categories Widget"
 msgstr ""
