@@ -470,7 +470,7 @@
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]</label>
+				<label>$LOCALIZE[31148]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
 				<visible>Skin.HasSetting(HideWidgetLabels)</visible>
@@ -480,20 +480,20 @@
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]</label>
+				<label>$LOCALIZE[31148]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
-				<visible>!Control.HasFocus(42900) + !Skin.HasSetting(HideWidgetLabels)</visible>
+				<visible>!Control.HasFocus(22900) + !Skin.HasSetting(HideWidgetLabels)</visible>
 			</control>
 			<control type="label">
 				<left>22</left>
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]$INFO[Container(42900).ListItem.Label, | ]</label>
+				<label>$LOCALIZE[31148]$INFO[Container(22900).ListItem.Label, | ]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
-				<visible>Control.HasFocus(42900) + !Skin.HasSetting(HideWidgetLabels)</visible>
+				<visible>Control.HasFocus(22900) + !Skin.HasSetting(HideWidgetLabels)</visible>
 			</control>
 		</control>
 		<control type="group" id="42900599">
@@ -525,7 +525,7 @@
 			<height>290</height>
                         <width>1320</width>
 			<include content="WidgetListCommon">
-				<param name="list_id" value="42900"/>
+				<param name="list_id" value="22900"/>
 			</include>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetList)</visible>
 			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
@@ -616,10 +616,12 @@
 				</control>
 			</focusedlayout>
 			<content>
-				<include>skinshortcuts-submenu</include>
+				<include>skinshortcuts-submenu-1</include>
 			</content>
 		</control>
 	</include>
+
+
 
 
 	<include name="PersonalWidgetListCategoriesBig">
@@ -629,7 +631,7 @@
 			<height>90</height>
 			<right>55</right>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetList)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
+			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
 			<control type="image">
 				<left>2</left>
 				<top>13</top>
@@ -673,7 +675,7 @@
 			<left>180</left>
 			<visible>Container(22900).IsUpdating + !Integer.IsGreater(Container(22900).NumItems,0)</visible>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetList)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
+			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
 			<control type="image">
 				<top>160</top>
 				<width>100</width>
@@ -700,7 +702,7 @@
 				<param name="list_id" value="22900"/>
 			</include>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetList)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
+			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
 			<itemlayout width="310" height="340">
 				<control type="group">
 					<left>70</left>
@@ -788,13 +790,13 @@
 				</control>
 			</focusedlayout>
 			<content>
-				<include>skinshortcuts-submenu-1</include>
+				<include>skinshortcuts-submenu</include>
 			</content>
 		</control>
 	</include>
 
-	<include name="PersonalWidgetPanelCategoriesBig2">
-		<control type="group" id="43900666">
+	<include name="PersonalWidgetPanelCategoriesBig">
+		<control type="group" id="23900666">
 			<left>55</left>
 			<top>80</top>
 			<height>90</height>
@@ -813,7 +815,7 @@
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]</label>
+				<label>$LOCALIZE[31148]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
 				<visible>Skin.HasSetting(HideWidgetLabels)</visible>
@@ -823,26 +825,26 @@
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]</label>
+				<label>$LOCALIZE[31148]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
-				<visible>!Control.HasFocus(43900) + !Skin.HasSetting(HideWidgetLabels)</visible>
+				<visible>!Control.HasFocus(23900) + !Skin.HasSetting(HideWidgetLabels)</visible>
 			</control>
 			<control type="label">
 				<left>22</left>
 				<top>0</top>
 				<right>2</right>
 				<height>90</height>
-				<label>$LOCALIZE[40315]$INFO[Container(43900).ListItem.Label, | ]</label>
+				<label>$LOCALIZE[31148]$INFO[Container(23900).ListItem.Label, | ]</label>
 				<font>font25_title</font>
 				<shadowcolor>text_shadow</shadowcolor>
-				<visible>Control.HasFocus(43900) + !Skin.HasSetting(HideWidgetLabels)</visible>
+				<visible>Control.HasFocus(23900) + !Skin.HasSetting(HideWidgetLabels)</visible>
 			</control>
 		</control>
-		<control type="group" id="43900599">
+		<control type="group" id="23900599">
 			<height>160</height>
 			<left>180</left>
-			<visible>Container(43900).IsUpdating + !Integer.IsGreater(Container(43900).NumItems,0)</visible>
+			<visible>Container(23900).IsUpdating + !Integer.IsGreater(Container(23900).NumItems,0)</visible>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetPanel)</visible>
 			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
 			<control type="image">
@@ -861,19 +863,18 @@
 				<animation effect="rotate" center="auto" start="360" end="0" time="1500" loop="true" condition="true">Conditional</animation>
 			</control>
 		</control>
-		<control type="panel" id="43900">
+		<control type="panel" id="23900">
 			<left>-10</left>
 			<top>110</top>
 			<right>0</right>
-			<orientation>vertical</orientation>
-			<height>720</height>
+			<height>290</height>
                         <width>1320</width>
 			<include content="WidgetListCommon">
-				<param name="list_id" value="43900"/>
+				<param name="list_id" value="23900"/>
 			</include>
 			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetPanel)</visible>
 			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu))</visible>
-			<itemlayout width="310" height="200">
+			<itemlayout width="310" height="340">
 				<control type="group">
 					<left>70</left>
 					<control type="image">
@@ -960,183 +961,6 @@
 			</focusedlayout>
 			<content>
 				<include>skinshortcuts-submenu</include>
-			</content>
-		</control>
-	</include>
-
-	<include name="PersonalWidgetPanelCategoriesBig">
-		<control type="group" id="§23900666">
-			<left>55</left>
-			<top>80</top>
-			<height>90</height>
-			<right>55</right>
-			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetPanel)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
-			<control type="image">
-				<left>2</left>
-				<top>13</top>
-				<width>11</width>
-				<height>11</height>
-				<texture colordiffuse="$VAR[SkinColorVar]">frame/puce.png</texture>
-			</control>
-			<control type="label">
-				<left>22</left>
-				<top>0</top>
-				<right>2</right>
-				<height>90</height>
-				<label>$LOCALIZE[31148]</label>
-				<font>font25_title</font>
-				<shadowcolor>text_shadow</shadowcolor>
-				<visible>Skin.HasSetting(HideWidgetLabels)</visible>
-			</control>
-			<control type="label">
-				<left>22</left>
-				<top>0</top>
-				<right>2</right>
-				<height>90</height>
-				<label>$LOCALIZE[31148]</label>
-				<font>font25_title</font>
-				<shadowcolor>text_shadow</shadowcolor>
-				<visible>!Control.HasFocus(23900) + !Skin.HasSetting(HideWidgetLabels)</visible>
-			</control>
-			<control type="label">
-				<left>22</left>
-				<top>0</top>
-				<right>2</right>
-				<height>90</height>
-				<label>$LOCALIZE[31148]$INFO[Container(23900).ListItem.Label, | ]</label>
-				<font>font25_title</font>
-				<shadowcolor>text_shadow</shadowcolor>
-				<visible>Control.HasFocus(23900) + !Skin.HasSetting(HideWidgetLabels)</visible>
-			</control>
-		</control>
-		<control type="group" id="23900599">
-			<height>160</height>
-			<left>180</left>
-			<visible>Container(23900).IsUpdating + !Integer.IsGreater(Container(23900).NumItems,0)</visible>
-			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetPanel)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
-			<control type="image">
-				<top>160</top>
-				<width>100</width>
-				<height>100</height>
-				<aspectratio aligny="center">keep</aspectratio>
-				<texture colordiffuse="black">dialogs/extendedprogress/loading-back.png</texture>
-			</control>
-			<control type="image">
-				<top>160</top>
-				<width>100</width>
-				<height>100</height>
-				<aspectratio aligny="center">keep</aspectratio>
-				<texture>dialogs/extendedprogress/loading.png</texture>
-				<animation effect="rotate" center="auto" start="360" end="0" time="1500" loop="true" condition="true">Conditional</animation>
-			</control>
-		</control>
-		<control type="panel" id="23900">
-			<left>-10</left>
-			<top>110</top>
-			<right>0</right>
-			<height>290</height>
-                        <width>1320</width>
-			<include content="WidgetListCommon">
-				<param name="list_id" value="23900"/>
-			</include>
-			<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PersonalWidgetPanel)</visible>
-			<visible>!Skin.HasSetting(UseSmallerCategories) + String.IsEmpty(Container(9000).ListItem.Property(HideSubMenu2))</visible>
-			<itemlayout width="310" height="340">
-				<control type="group">
-					<left>70</left>
-                                       <control type="image">
-                                                <width>316</width>
-                                                <height>200</height>
-                                                <texture background="true">$INFO[ListItem.Property(background)]</texture>
-						<aspectratio>scale</aspectratio>
-                                                <bordersize>20</bordersize>
-                                        </control>
-					<control type="image">
-						<width>316</width>
-						<height>200</height>
-						<texture>dialogs/dialog-bg-nobo.png</texture>
-						<bordertexture border="21">overlays/shadow.png</bordertexture>
-						<bordersize>20</bordersize>
-					</control>
-					<control type="image">
-						<centertop>74</centertop>
-						<left>58</left>
-						<width>200</width>
-						<height>120</height>
-						<texture fallback="DefaultFolder.png">$INFO[ListItem.Icon]</texture>
-						<aspectratio>keep</aspectratio>
-					</control>
-					<control type="textbox">
-						<left>18</left>
-						<top>107</top>
-						<width>280</width>
-						<height>68</height>
-						<label>$INFO[ListItem.Label]</label>
-						<font>font25_narrow</font>
-						<shadowcolor>text_shadow</shadowcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-					</control>
-				</control>
-			</itemlayout>
-			<focusedlayout width="310" height="340">
-				<control type="group">
-					<depth>DepthContentPopout</depth>
-					<left>70</left>
-					<animation type="Focus" condition="!Skin.HasSetting(no_animations)" reversible="false">
-						<effect type="zoom" end="110" time="75" tween="sine" easing="out" center="228,70" />
-						<effect type="zoom" end="91" time="225" tween="sine" delay="100" easing="out" center="228,70" />
-					</animation>
-					<control type="image">
-						<width>316</width>
-						<height>200</height>
-						<texture>dialogs/dialog-bg-nobo.png</texture>
-						<bordertexture border="21">overlays/shadow.png</bordertexture>
-						<bordersize>20</bordersize>
-					</control>
-					<control type="image">
-						<top>-6</top>
-						<left>-6</left>
-						<width>328</width>
-						<height>212</height>
-						<texture colordiffuse="$VAR[SkinColorVar]">colors/grey.png</texture>
-						<bordersize>20</bordersize>
-					</control>
-					<control type="image">
-						<top>-6</top>
-						<left>-6</left>
-						<width>328</width>
-						<height>212</height>
-						<texture colordiffuse="$VAR[GradientColorVar]">colors/gradient.png</texture>
-						<bordersize>20</bordersize>
-						<visible>Skin.HasSetting(EnableGradientColor)</visible>
-					</control>
-					<control type="image">
-						<centertop>74</centertop>
-						<left>58</left>
-						<width>200</width>
-						<height>120</height>
-						<texture fallback="DefaultFolder.png">$INFO[ListItem.Icon]</texture>
-						<aspectratio>keep</aspectratio>
-					</control>
-					<control type="textbox">
-						<left>18</left>
-						<top>107</top>
-						<width>280</width>
-						<height>68</height>
-						<label>$INFO[ListItem.Label]</label>
-						<font>font25_narrow</font>
-						<shadowcolor>text_shadow</shadowcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-						<autoscroll delay="1000" time="1000" repeat="1000">true</autoscroll>
-					</control>
-				</control>
-			</focusedlayout>
-			<content>
-				<include>skinshortcuts-submenu-1</include>
 			</content>
 		</control>
 	</include>

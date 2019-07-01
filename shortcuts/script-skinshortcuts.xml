@@ -185,25 +185,19 @@
 					<include>DefaultSettingButton</include>
 					<label>$ADDON[script.skinshortcuts 32045]</label>
 					<label2>$VAR[Label_SkinSetting_Backgrounds]</label2>
+					<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
 				</control>
-                <control type="button" id="406">
-                   <description>Edit submenu</description>
-                   <include>DefaultSettingButton</include>
-                   <label>$LOCALIZE[40316]</label>
-                   <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
-                   <visible>!String.IsEqual(Container(211).ListItem.Property(defaultID),libreelec) + !String.IsEqual(Container(211).ListItem.Property(widget),PicturesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),GamesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),FavoritesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),WeatherWidget)</visible>
-                </control>
-                <control type="radiobutton" id="3130">
-                    <label>  ∟$LOCALIZE[40317]</label>
-                    <include>DefaultSettingButton</include>
-                    <selected>!String.IsEmpty(Container(211).ListItem.Property(HideSubMenu2))</selected>
-                    <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
-                    <visible>String.IsEqual(Container(211).ListItem.Property(widget),PersonalWidgetList) | String.IsEqual(Container(211).ListItem.Property(widget),PersonalWidgetPanel)</visible>  
-                </control>
 				<control type="button" id="405">
                    <description>Edit submenu</description>
                    <include>DefaultSettingButton</include>
                    <label>$LOCALIZE[40226]</label>
+                   <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                   <visible>!String.IsEqual(Container(211).ListItem.Property(defaultID),libreelec) + !String.IsEqual(Container(211).ListItem.Property(widget),PicturesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),GamesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),FavoritesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),WeatherWidget)</visible>
+                </control>
+                          <control type="button" id="406">
+                   <description>Edit submenu</description>
+                   <include>DefaultSettingButton</include>
+                   <label>Configure Additonal 'Categories' Widget</label>
                    <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
                    <visible>!String.IsEqual(Container(211).ListItem.Property(defaultID),libreelec) + !String.IsEqual(Container(211).ListItem.Property(widget),PicturesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),GamesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),FavoritesWidget) + !String.IsEqual(Container(211).ListItem.Property(widget),WeatherWidget)</visible>
                 </control>

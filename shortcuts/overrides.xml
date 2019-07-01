@@ -280,6 +280,7 @@
     <property property="widgetSortDirection.9">$LOCALIZE[585]</property>
 	
 	<propertySettings toggle="HideSubMenu" buttonID="3129" templateonly="True" />
+	<propertySettings toggle="HideSubMenu2" buttonID="3130" templateonly="True" />
 	
 	<propertySettings property="ParentalControl" buttonID="993" title="$LOCALIZE[40186]" showNone="False" imageBrowse="False" />
 	<property property="ParentalControl" label="$LOCALIZE[106]" icon="icons/parental-control/lock_no.png">No</property>

@@ -238,11 +238,6 @@
 			<property name="widgetType" />
 			<property name="widgetTarget" />
 			<property name="widgetPath">PersonalWidgetPanel</property>
-			<property name="widget.9">Addon</property>
-			<property name="widgetName.9">Gaia</property>
-			<property name="widgetType.9">videos</property>
-			<property name="widgetTarget.9">videos</property>
-			<property name="widgetPath.9">plugin://plugin.video.gaia?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
 			<property name="widgetAspect.9">40203</property>
 			<onclick condition="String.IsEqual(Container(9000).ListItem.Property(ParentalControl),yes) + !String.IsEqual(Skin.String(mypassword),Skin.String(passcode))">Skin.SetString(dialog_action,noop)</onclick>
 			<property name="path">Skin.SetString(dialog_action,noop)</property>
@@ -269,6 +264,7 @@
 			<property name="widgetType" />
 			<property name="widgetTarget" />
 			<property name="widgetPath">PersonalWidgetPanel</property>
+			<property name="HideSubMenu">True</property>
 			<onclick condition="String.IsEqual(Container(9000).ListItem.Property(ParentalControl),yes) + !String.IsEqual(Skin.String(mypassword),Skin.String(passcode))">Skin.SetString(dialog_action,noop)</onclick>
 			<property name="path">Skin.SetString(dialog_action,noop)</property>
 			<property name="list">Skin.SetString(dialog_action,noop)</property>
@@ -11936,10 +11932,10 @@
 				<include condition="!Skin.HasSetting(UseSmallerCategories)">PersonalWidgetPanelCategoriesBig2</include>
 				<include condition="Skin.HasSetting(UseSmallerCategories)">PersonalWidgetPanelCategoriesSmall</include>
 				<include content="WidgetPanelPoster">
-					<param name="content_path" value="plugin://plugin.video.gaia?reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]" />
-					<param name="widget_header" value="Gaia" />
+					<param name="content_path" value="" />
+					<param name="widget_header" value="" />
 					<param name="widget_header_focus" value="$VAR[WidgetLabelFocus2310010]" />
-					<param name="widget_target" value="videos" />
+					<param name="widget_target" value="" />
 					<param name="sortby" value="" />
 					<param name="sortorder" value="" />
 					<param name="list_id" value="2310010" />
