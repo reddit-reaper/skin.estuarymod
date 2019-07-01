@@ -3,6 +3,7 @@
 • Add Background capability for Categories
 • Adjusted padding on right side for categories
 • Adjust default view style to use WideList
+• Thank you Skyfsza, this is all thanks to you sir!
 
 [B]3.0.5[/B]
 • Add number of bits per sample on music OSD
