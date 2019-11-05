@@ -3,7 +3,7 @@
 	<onload condition="System.HasAddon(script.tv.show.next.aired)">RunScript(script.tv.show.next.aired,backend=True)</onload>
 	<defaultcontrol always="true">55</defaultcontrol>
 	<backgroundcolor>background</backgroundcolor>
-	<views>55, 50,51,52,53,54,505,500,504,501,502,503,506,507,508,509</views>
+	<views>55,50,51,52,53,54,505,500,504,501,502,503,506,507,508,509</views>
 	<menucontrol>9000</menucontrol>
 	<controls>
 		<include>DefaultBackground</include>
