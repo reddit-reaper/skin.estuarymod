@@ -522,8 +522,9 @@
 			<left>-10</left>
 			<top>110</top>
 			<right>0</right>
-			<height>290</height>
-                        <width>1320</width>
+			<orientation>vertical</orientation>
+			<height>500</height>
+            <width>1320</width>
 			<include content="WidgetListCommon">
 				<param name="list_id" value="42900"/>
 			</include>
@@ -693,9 +694,9 @@
 		<control type="panel" id="22900">
 			<left>-10</left>
 			<top>110</top>
-			<right>0</right>
+			<right>10</right>
 			<height>290</height>
-                        <width>1320</width>
+            <width>1320</width>
 			<include content="WidgetListCommon">
 				<param name="list_id" value="22900"/>
 			</include>
@@ -867,7 +868,7 @@
 			<right>0</right>
 			<orientation>vertical</orientation>
 			<height>720</height>
-                        <width>1320</width>
+            <width>1520</width>
 			<include content="WidgetListCommon">
 				<param name="list_id" value="43900"/>
 			</include>
@@ -1037,7 +1038,7 @@
 			<top>110</top>
 			<right>0</right>
 			<height>290</height>
-                        <width>1320</width>
+            <width>1320</width>
 			<include content="WidgetListCommon">
 				<param name="list_id" value="23900"/>
 			</include>
@@ -1046,13 +1047,13 @@
 			<itemlayout width="310" height="340">
 				<control type="group">
 					<left>70</left>
-                                       <control type="image">
-                                                <width>316</width>
-                                                <height>200</height>
-                                                <texture background="true">$INFO[ListItem.Property(background)]</texture>
+                    <control type="image">
+						<width>316</width>
+						<height>200</height>
+						<texture background="true">$INFO[ListItem.Property(background)]</texture>
 						<aspectratio>scale</aspectratio>
-                                                <bordersize>20</bordersize>
-                                        </control>
+						<bordersize>20</bordersize>
+					</control>
 					<control type="image">
 						<width>316</width>
 						<height>200</height>
