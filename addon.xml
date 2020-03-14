@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.estuarymod" version="3.0.7" name="EstuaryMOD (Leia)" provider-name="Reddit Reaper, Skyfsza">
+<addon id="skin.estuarymod" version="3.0.8" name="EstuaryMOD (Leia)" provider-name="Reddit Reaper, Skyfsza">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.skinshortcuts" version="1.0.18"/>
