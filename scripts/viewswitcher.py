@@ -7,7 +7,7 @@ if __name__ == '__main__':
     # init props
     trans_title = xbmc.getLocalizedString(369)
     monitor = xbmc.Monitor()
-    xbmc.log("service.skin.viewswitcher - Start service", level=xbmc.LOGNOTICE)
+    xbmc.log("service.skin.viewswitcher - Start service", level=xbmc.LOGINFO)
     while not monitor.abortRequested():
         # Sleep/wait for abort for 0.5 seconds
         if monitor.waitForAbort(0.5):
@@ -40,10 +40,10 @@ if __name__ == '__main__':
                         #dlg = xbmcgui.Dialog()
                         #dlg.notification("Set",str(path) + " - " + current_content,xbmcgui.NOTIFICATION_INFO,1000)
                         xbmc.executebuiltin("Container.SetViewMode(%s)" % dest_view_id)
-                        xbmc.log("service.skin.viewswitcher - Cur label: " + current_view_label, level=xbmc.LOGNOTICE)
-                        xbmc.log("service.skin.viewswitcher - Cur content: " + str(current_content), level=xbmc.LOGNOTICE)
-                        xbmc.log("service.skin.viewswitcher - Switching to:", level=xbmc.LOGNOTICE)
-                        xbmc.log("service.skin.viewswitcher - Dest label: " + str(dest_view_label), level=xbmc.LOGNOTICE)
-                        xbmc.log("service.skin.viewswitcher - Dest id: " + str(dest_view_id), level=xbmc.LOGNOTICE)
+                        xbmc.log("service.skin.viewswitcher - Cur label: " + current_view_label, level=xbmc.LOGINFO)
+                        xbmc.log("service.skin.viewswitcher - Cur content: " + str(current_content), level=xbmc.LOGINFO)
+                        xbmc.log("service.skin.viewswitcher - Switching to:", level=xbmc.LOGINFO)
+                        xbmc.log("service.skin.viewswitcher - Dest label: " + str(dest_view_label), level=xbmc.LOGINFO)
+                        xbmc.log("service.skin.viewswitcher - Dest id: " + str(dest_view_id), level=xbmc.LOGINFO)
                         # give kodi time to relax :-)
                         time.sleep(1)

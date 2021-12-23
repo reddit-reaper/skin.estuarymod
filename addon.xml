@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.estuarymod" version="3.0.9" name="EstuaryMOD (Matrix)" provider-name="Reddit Reaper, Skyfsza">
+<addon id="skin.estuarymod" version="3.0.91" name="EstuaryMOD (Matrix)" provider-name="Reddit Reaper, Skyfsza">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skinshortcuts" version="1.0.18"/>
